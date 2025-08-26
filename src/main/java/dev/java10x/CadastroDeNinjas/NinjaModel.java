@@ -16,6 +16,7 @@ public class NinjaModel {
     int idade;
 
 
+
     public NinjaModel() {
     }
 
