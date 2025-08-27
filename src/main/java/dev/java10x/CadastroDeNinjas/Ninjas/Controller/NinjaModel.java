@@ -1,5 +1,4 @@
 package dev.java10x.CadastroDeNinjas.Ninjas.Controller;
-
 import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,6 +19,7 @@ public class NinjaModel {
 
     private String nome;
 
+    @Column(unique = true)
     private String email;
 
     private int idade;
